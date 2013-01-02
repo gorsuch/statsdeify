@@ -20,7 +20,7 @@ Or install it yourself as:
 
 ```ruby
 sd = Statsdeify.new('udp://statsd.example.com:8125')
-sd.handle_line 'meausre=foo.bar value=1'
+sd.handle_line 'measure=foo.bar value=1'
 ```
 
 ## Contributing
