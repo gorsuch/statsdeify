@@ -34,6 +34,10 @@ measurement = Statsdeify::Measurement.from_line('measure=foo.bar value=12345')
 writer.puts(measurement)
 ```
 
+## Credit
+
+Giant props to @ryandotsmith and his excellent [`ryandotsmith/l2met`](https://github.com/ryandotsmith/l2met).
+
 ## Contributing
 
 1. Fork it
