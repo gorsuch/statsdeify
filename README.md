@@ -19,8 +19,9 @@ Or install it yourself as:
 ## Usage
 
 ```ruby
-parser = Statsdeify::Parser.new('udp://statsd.example.com:8125')
-parser.handle_line 'measure=foo.bar value=1'
+writer = Statsdeify::Writer.new('udp://localhost:8125')
+measurement = Statsdeify::Measurement.from_line('measure=foo.bar value=12345')
+writer.puts(measurement)
 ```
 
 ## Contributing
