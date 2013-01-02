@@ -27,7 +27,7 @@ module Statsdeify
     end
 
     def to_s
-      "#{name}:#{value}|g"
+      "#{name}:#{value}|g\n"
     end
   end
 end
