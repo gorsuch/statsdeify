@@ -16,7 +16,7 @@ module Statsdeify
     end
 
     def puts(measurement)
-      socket.write(measurement.to_s, 0) 
+      socket.send(measurement.to_s, 0) 
     end
   end
 end
