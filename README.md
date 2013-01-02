@@ -36,7 +36,7 @@ writer.puts(measurement)
 
 ## Credit
 
-Giant props to @ryandotsmith and his excellent [`ryandotsmith/l2met`](https://github.com/ryandotsmith/l2met).
+Giant props to @ryandotsmith and his excellent [`ryandotsmith/l2met`](https://github.com/ryandotsmith/l2met) for inspiration.
 
 ## Contributing
 
