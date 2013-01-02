@@ -18,7 +18,10 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+sd = Statsdeify.new('udp://statsd.example.com:8125')
+sd.handle_line 'meausre=foo.bar value=1'
+```
 
 ## Contributing
 
