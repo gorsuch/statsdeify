@@ -1,6 +1,6 @@
 # statsdeify
 
-An experimental lib to transmute logs to `statsd` measurements.
+An experimental lib to transmute structured logs to `statsd` measurements.
 
 ## Installation
 
@@ -15,6 +15,16 @@ And then execute:
 Or install it yourself as:
 
     $ gem install statsdeify
+
+## Conventions
+
+### Gauges
+
+Produce a log line that contains the following within it:
+
+```
+measure=foo.bar value=1
+```
 
 ## Usage
 
